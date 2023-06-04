@@ -60,6 +60,6 @@ print("r^2:", r_2)
 print("COEFICIENTE DE CORRELACION:")
 r = round(math.sqrt(r_2), 4)
 if(b1 >= 0):
-    print("+", round(r, 4))
+    print("r = +", round(r, 4))
 else:
-    print("-", round(r, 4))
+    print("r = -", round(r, 4))
